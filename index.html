@@ -17,19 +17,12 @@
                <i class="fas fa-search"></i>
            </div>
        </div>
+       <div class=" stores-list-container"></div>
+
         <div id="map"></div>
-        <script>
-            var map;
-            function initMap() {
-                let oslo = {lat: 59.911491, lng: 10.757933};
-                map = new google.maps.Map(document.getElementById('map'), {
-                    center: oslo,
-                    zoom: 8
-                });
-            }
-        </script>
+        <script src="js/index.js" async defer></script>
         <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyChZ9tqDBJrc0QGfBDyR51le-vvWhjB1OM&callback=initMap"
          async defer> </script>
-         <script src="js/index.js" async defer></script>
+         
     </body>
 </html>
